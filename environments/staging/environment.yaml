@@ -36,11 +36,11 @@ app:
       value: 7rgjkvbjl487r2i1bvialvj2f4
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
-  observability:
-    cloudwatch:   
-      arn: crn:v1:bluemix:public:logs:eu-es:a/b3e42c19cc158922f9debfd37af1bec8:eb04f466-1ddb-4347-aabd-5f861ef53017::
-      logGroup: myLogGroup
-      region: us-east-1
+# observability:
+#   cloudwatch:   
+#     arn: crn:v1:bluemix:public:logs:eu-es:a/b3e42c19cc158922f9debfd37af1bec8:eb04f466-1ddb-4347-aabd-5f861ef53017::
+#     logGroup: myLogGroup
+#     region: us-east-1
   version: "d04d7ad1-b346-4fe2-904b-1c74341960a8"
 # probes
 # dynamic scaling
