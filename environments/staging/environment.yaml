@@ -38,7 +38,7 @@ app:
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
   observability:
     cloudwatch:   
-      arn: crn:v1:bluemix:public:logs:eu-es:a/a061471f6ab24c5bb6fd5ab555a213fb:0db51afc-a398-4e00-99f0-7ca8d47aa98b::
+      arn: crn:v1:bluemix:public:logs:eu-es:a/b3e42c19cc158922f9debfd37af1bec8:eb04f466-1ddb-4347-aabd-5f861ef53017::
       logGroup: myLogGroup
       region: us-east-1
   version: "d04d7ad1-b346-4fe2-904b-1c74341960a8"
