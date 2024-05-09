@@ -36,11 +36,11 @@ app:
       value: 7rgjkvbjl487r2i1bvialvj2f4
     - name: clientSecret
       value: "{aes}AIUxkkmTE73hJrAj3oN5OMYQnC9j3NWNJNTXXAchJ97qyrr7MHYMmn1NEtxgHXFqmYp8VNEAYhB5hJS8voLsRYyfA/7GpDdznGs/DtYEqzlw"
-  # observability:
-  #  cloudwatch:   
+  observability:
+    cloudwatch:   
   #    arn: arn:aws:logs:region:account-id:destination:destination_name
-  #    logGroup: myLogGroup
-  #    region: us-east-1
+      logGroup: myLogGroup
+      region: us-east-1
   version: "d04d7ad1-b346-4fe2-904b-1c74341960a8"
 # probes
 # dynamic scaling
